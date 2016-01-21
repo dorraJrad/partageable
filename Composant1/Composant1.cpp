@@ -23,29 +23,18 @@ int addition_interne(int a1, int a2)
 
 char * getComposant1Version()
 {
-	char* inf1 = "Composant 1 version ";
-	char* c1 = COMPOSANT1_VERSION_STR;
-	char * c3 = getComposant3Version();
+	char* lib1 = "Composant 1 version ";
+	char* version1 = COMPOSANT1_VERSION_STR;
+	char* lib2 = "\n Composant 3 version ";
+	char * version3 = getComposant3Version();
 
-	char *  str = (char*)malloc(50 + strlen(c1) + strlen(c3));
+	char *  version = (char*)malloc(80 + strlen(version1) + strlen(version3));
 
-	strcpy(str, inf1);
-	strcat(str, c1);
-	strcat(str, "\n");
-	strcat(str, c3);
+	strcpy(version, lib1);
+	strcat(version, version1);
+	strcat(version, lib2 );
+	strcat(version, version3);
 
-	return str;
+	return version;
 }
-/*
-char * getComposant1Version()
-{	
-	char * version1;
-	char * version3;
-	version1 = "Composant 1 version " COMPOSANT_VERSION_STR;
-	version3 = "Composant 3 version " COMPOSANT_VERSION_STR;
-
-
-	return  "Composant 1 version " COMPOSANT_VERSION_STR +'et' + "Composant 3 version " COMPOSANT_VERSION_STR;
-}
-*/
 
