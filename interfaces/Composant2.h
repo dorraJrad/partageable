@@ -3,7 +3,9 @@
 //
 #ifndef COMPOSANT2_H
 #define COMPOSANT2_ 
-#include "Composant2Version.h" 
+
+#define COMPOSANT2_VERSION 1,2,0,0
+#define COMPOSANT_VERSION_STR ”1,2,0,0”
 
 
 #ifdef COMPOSANT2_EXPORTS
