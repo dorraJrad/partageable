@@ -102,7 +102,7 @@
   <ItemGroup>
     <ClInclude Include="..\interfaces\Composant2.h" />
     <ClInclude Include="Composant2Version.h" />
-    <ClInclude Include="resource.h" />
+    <ClInclude Include="Resource.h" />
   </ItemGroup>
   <ItemGroup>
     <ResourceCompile Include="Resource.rc" />
