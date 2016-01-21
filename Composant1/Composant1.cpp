@@ -13,18 +13,18 @@ int addition_interne(int a1, int a2);
 
 int composant1(int p1, int p2)
 {
-	return composant3(p1,p2);
+	return composant3(p1, p2);
 }
 
 int addition_interne(int a1, int a2)
 {
-	return a1+a2;
+	return a1 + a2;
 }
 
 char * getComposant1Version()
 {
 	char* lib1 = "Composant 1 version ";
-	char* version1 = COMPOSANT1_VERSION_STR;
+	char* version1 = COMPOSANT_VERSION_STR;
 	char* lib2 = "\n Composant 3 version ";
 	char * version3 = getComposant3Version();
 
@@ -32,9 +32,8 @@ char * getComposant1Version()
 
 	strcpy(version, lib1);
 	strcat(version, version1);
-	strcat(version, lib2 );
+	strcat(version, lib2);
 	strcat(version, version3);
 
 	return version;
 }
-
