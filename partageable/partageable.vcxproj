@@ -93,6 +93,9 @@
       <Project>{174b0eb1-9936-422d-b0a2-954d80d413a3}</Project>
       <UseLibraryDependencyInputs>false</UseLibraryDependencyInputs>
     </ProjectReference>
+    <ProjectReference Include="..\Composant4\Composant4.vcxproj">
+      <Project>{da8b232b-29c9-4907-8204-bf7033132a49}</Project>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
