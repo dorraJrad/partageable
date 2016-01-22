@@ -108,7 +108,7 @@
     <ClInclude Include="Composant1Version.h" />
   </ItemGroup>
   <ItemGroup>
-    <ResourceCompile Include="Resource.rc">
+    <ResourceCompile Include="Composant1.rc">
       <AdditionalIncludeDirectories Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(IntDir);%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ResourceCompile>
   </ItemGroup>

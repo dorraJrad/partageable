@@ -27,7 +27,7 @@
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
-    <ResourceCompile Include="Resource.rc">
+    <ResourceCompile Include="Composant1.rc">
       <Filter>Resource</Filter>
     </ResourceCompile>
   </ItemGroup>

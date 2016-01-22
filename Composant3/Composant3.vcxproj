@@ -147,12 +147,11 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ResourceCompile Include="Resource.rc" />
+    <ResourceCompile Include="Composant3.rc" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="..\interfaces\Composant3.h" />
     <ClInclude Include="Composant3Version_.h" />
-    <ClInclude Include="resource.h" />
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Composant3.cpp" />

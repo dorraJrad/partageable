@@ -102,10 +102,9 @@
   <ItemGroup>
     <ClInclude Include="..\interfaces\Composant2.h" />
     <ClInclude Include="Composant2Version.h" />
-    <ClInclude Include="Resource.h" />
   </ItemGroup>
   <ItemGroup>
-    <ResourceCompile Include="Resource.rc" />
+    <ResourceCompile Include="Composant2.rc" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
