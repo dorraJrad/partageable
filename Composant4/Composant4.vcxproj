@@ -146,6 +146,7 @@
     <ClCompile Include="Composant4.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="Composant4.h" />
     <ClInclude Include="Composant4Version.h" />
   </ItemGroup>
   <ItemGroup>

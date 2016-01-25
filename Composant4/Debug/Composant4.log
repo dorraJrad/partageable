@@ -1,15 +1,8 @@
 ﻿  Composant4.cpp
-c:\users\radhouane\documents\github\partageable\composant4\composant4.cpp(15): warning C4273: 'composant1' : liaison DLL incohérente
-  c:\users\radhouane\documents\github\partageable\interfaces\composant1.h(19): note: voir la définition précédente de 'composant1'
-c:\users\radhouane\documents\github\partageable\composant4\composant4.cpp(25): warning C4273: 'getComposant1Version' : liaison DLL incohérente
-  c:\users\radhouane\documents\github\partageable\interfaces\composant1.h(21): note: voir la définition précédente de 'getComposant1Version'
-c:\users\radhouane\documents\github\partageable\composant4\composant4.cpp(33): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
-  c:\program files (x86)\windows kits\10\include\10.0.10240.0\ucrt\string.h(119): note: voir la déclaration de 'strcpy'
-c:\users\radhouane\documents\github\partageable\composant4\composant4.cpp(34): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
-  c:\program files (x86)\windows kits\10\include\10.0.10240.0\ucrt\string.h(90): note: voir la déclaration de 'strcat'
-c:\users\radhouane\documents\github\partageable\composant4\composant4.cpp(35): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
-  c:\program files (x86)\windows kits\10\include\10.0.10240.0\ucrt\string.h(90): note: voir la déclaration de 'strcat'
-c:\users\radhouane\documents\github\partageable\composant4\composant4.cpp(36): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
-  c:\program files (x86)\windows kits\10\include\10.0.10240.0\ucrt\string.h(90): note: voir la déclaration de 'strcat'
+c:\users\radhouane\documents\github\partageable\composant4\composant4.cpp(14): warning C4273: 'composant1' : liaison DLL incohérente
+  c:\users\radhouane\documents\github\partageable\composant4\composant4.h(19): note: voir la définition précédente de 'composant1'
+c:\users\radhouane\documents\github\partageable\composant4\composant4.cpp(24): warning C4273: 'getComposant1Version' : liaison DLL incohérente
+  c:\users\radhouane\documents\github\partageable\composant4\composant4.h(21): note: voir la définition précédente de 'getComposant1Version'
+  LINK : C:\Users\Radhouane\Documents\GitHub\partageable\Debug\Composant4.dll introuvable ou non généré par la dernière édition de liens incrémentielle ; édition de liens complète en cours
      Création de la bibliothèque C:\Users\Radhouane\Documents\GitHub\partageable\Debug\Composant4.lib et de l'objet C:\Users\Radhouane\Documents\GitHub\partageable\Debug\Composant4.exp
   Composant4.vcxproj -> C:\Users\Radhouane\Documents\GitHub\partageable\Debug\Composant4.dll
